@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    /* height: 10vh; */
+    /* min-height:80px ; */
+    background-color: white;
+}
+header .firstRow{
+    min-height:60px;
+    display: flex;
+    border-bottom: black solid 2px;
+    justify-content: space-between;
+}
+header .socialMediaLinks{
+    display: flex;
+    align-items: center;
+}
+header .socialMediaLinks ul{
+    display: flex;
+}
+header .socialMediaLinks li{
+    text-align: center;
+    display: inline;
+    margin: 0 10px;
+}
+header .socialMediaLinks i{
+    font-size: 2rem;
+    color: black;
+}
+header .socialMediaLinks a:visited{
+    text-decoration: none;
+}
+header .socialMediaLinks i:hover{
+ color: tomato;
+}
+.mainLogoContainer{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    flex-shrink: 2;
+}
+.mainLogoContainer img{
+
+    max-height: 60px;
+    align-self: center;
+    justify-self: center;
+}
+.extraButtons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.extraButtons a{
+    background-color: black;
+    border:black 2px;
+    border-radius:2mm;
+    padding: 10px 5px;
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+/* .extraButtons a:hover{
+    color: black;
+    background-color: white;
+    border: black solid 2px;
+    font-weight: bold;
+} */
+.extraButtons i{
+    font-size: 2rem;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: tomato;
+}
+header nav ul{
+    width: 100%;
+    min-height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header .secondRow{
+    width: 100%;
+}
+header .secondRow li{
+    display:inline;
+}
+header .secondRow a{
+    padding: 0 5px;
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+}
+header .secondRow a:visited{
+    text-decoration: none;
+}
+
+header .secondRow a:hover{
+    border:tomato solid 1px;
+    padding: 1vh;
+    color: tomato;
+    background-color: white;
+}
+/* header .secondRow nav{
+    width: 100%;
+} */
