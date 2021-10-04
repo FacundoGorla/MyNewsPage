@@ -5,8 +5,6 @@
 }
 header{
     width: 100%;
-    /* height: 10vh; */
-    /* min-height:80px ; */
     background-color: white;
 }
 header .firstRow{
@@ -50,7 +48,6 @@ header .socialMediaLinks i:hover{
     height: auto;
     width: 100%;
     max-height: 45px;
-    /* min-width: 280px; */
     align-self: center;
     justify-self: center;
 }
@@ -70,12 +67,6 @@ header .socialMediaLinks i:hover{
     /* font-size:1.2vw;
     min-width: 15px; */
 }
-/* .extraButtons a:hover{
-    color: black;
-    background-color: white;
-    border: black solid 2px;
-    font-weight: bold;
-} */
 .extraButtons i{
     font-size:3vw;
 }
@@ -122,17 +113,10 @@ header .secondRow a:hover{
     color: tomato;
     background-color: white;
 }
-/* header .secondRow nav{
-    width: 100%;
-} */
 @media only screen and (max-width: 768px){
     .extraButtons{
         display: none;
     }
-
-    /* .mainLogoContainer{
-        justify-content: flex-end;
-    } */
     header .socialMediaLinks i{
         font-size:4vw;
     }
