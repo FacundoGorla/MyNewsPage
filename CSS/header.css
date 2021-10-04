@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 header{
     width: 100%;
@@ -13,21 +14,25 @@ header .firstRow{
     display: flex;
     border-bottom: black solid 2px;
     justify-content: space-between;
+    width: 100%;
 }
 header .socialMediaLinks{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 header .socialMediaLinks ul{
     display: flex;
+    flex-wrap: wrap;
 }
 header .socialMediaLinks li{
     text-align: center;
     display: inline;
     margin: 0 10px;
+
 }
 header .socialMediaLinks i{
-    font-size: 2rem;
+    font-size:2rem;
     color: black;
 }
 header .socialMediaLinks a:visited{
@@ -40,11 +45,12 @@ header .socialMediaLinks i:hover{
     display: flex;
     align-self: center;
     justify-self: center;
-    flex-shrink: 2;
 }
 .mainLogoContainer img{
-
-    max-height: 60px;
+    height: auto;
+    width: 100%;
+    max-height: 45px;
+    /* min-width: 280px; */
     align-self: center;
     justify-self: center;
 }
@@ -61,6 +67,8 @@ header .socialMediaLinks i:hover{
     color: white;
     text-decoration: none;
     margin: 0 1rem;
+    /* font-size:1.2vw;
+    min-width: 15px; */
 }
 /* .extraButtons a:hover{
     color: black;
@@ -69,7 +77,7 @@ header .socialMediaLinks i:hover{
     font-weight: bold;
 } */
 .extraButtons i{
-    font-size: 2rem;
+    font-size:3vw;
 }
 header nav{
     width: 100%;
@@ -86,6 +94,13 @@ header nav ul{
     align-items: center;
     flex-wrap: wrap;
 }
+#mobileNav{
+    display: none;
+    font-size: 2rem;
+}
+#mobileNav i{
+    font-size: 1.8rem;
+}
 header .secondRow{
     width: 100%;
 }
@@ -101,7 +116,6 @@ header .secondRow a{
 header .secondRow a:visited{
     text-decoration: none;
 }
-
 header .secondRow a:hover{
     border:tomato solid 1px;
     padding: 1vh;
@@ -111,3 +125,28 @@ header .secondRow a:hover{
 /* header .secondRow nav{
     width: 100%;
 } */
+@media only screen and (max-width: 768px){
+    .extraButtons{
+        display: none;
+    }
+
+    /* .mainLogoContainer{
+        justify-content: flex-end;
+    } */
+    header .socialMediaLinks i{
+        font-size:4vw;
+    }
+
+}
+@media only screen and (max-width: 425px){
+    header .socialMediaLinks{
+        display: none;
+    }
+    #desktopNav{
+        display:none;
+    }
+    #mobileNav{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}

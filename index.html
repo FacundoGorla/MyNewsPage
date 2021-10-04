@@ -6,7 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Daily News | your trusty digital newspaper</title>
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="CSS/normalize.css">
         <link rel="stylesheet" href="CSS/header.css">
+        <link rel="stylesheet" href="CSS/main.css">
+        <link rel="stylesheet" href="CSS/footer.css">
     </head>
     <body>
         <header>
@@ -19,7 +22,7 @@
                     </ul>
                 </div>
                 <div class="mainLogoContainer">
-                    <img src="media/mainLogo.PNG" alt="mainLogo">
+                    <img src="./media/mainLogo.PNG" alt="mainLogo">
                 </div>
                 <div class="extraButtons">
                     <i class="fa fa-search"></i>
@@ -28,7 +31,7 @@
             </div>
             <nav>
                 <div class="secondRow">
-                    <ul>
+                    <ul id="desktopNav">
                         <li><a href="#">HOME</a></li>
                         <li><a href="#">WORLD</a></li>
                         <li><a href="#">SPORTS</a></li>
@@ -38,8 +41,83 @@
                         <li><a href="#">TECH</a></li>
                         <li><a href="#">CELEBRITIES</a></li>
                      </ul>
+                     <ul id="mobileNav">
+                        <li><i class="fa fa-bars"></i></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                     </ul>
                 </div>
             </nav>
-        </header>             
+        </header>
+        <div class="allNews">
+            <section class="midSection">
+                <div class="firstMidNews">
+                    <a href="#"><img src="./media/mainImage1.webp" alt="squidGameImg"></a>
+                    <a href="#">Squid Game’ is worth the hype — and much deeper than its chilling violence</a>
+                    <p>
+                        Like reality TV, the show is a window into how human beings treat each other and what we’ll do to succeed or, 
+                        in this case, what we’ll do to survive. And people can’t stop talking about it.
+                    </p>
+                </div>
+                <div class="secondMidNews">
+                    <a href="#"><img src="./media/mainImage2.webp" alt="facebookAppsImg"></a>
+                    <a href="#">Facebook, Whatsapp and Instagram suffer outage</a>
+                    <p>
+                        Social media services Facebook, WhatsApp and Instagram have been hit by an outage lasting several hours. 
+                        All three services are owned by Facebook and could not be accessed over the web or smartphone apps.
+                    </p>
+                </div>
+            </section>
+            <section class="leftSection">
+                <div class="firstLeftNews">
+                    <a href="#"><img src="./media/leftImage1webp.webp" alt="newZelandImg"></a>
+                    <a href="#">Battling Delta, New Zealand Abandons Its Zero-Covid Ambitions</a>
+                </div>
+                <div class="secondLeftNews">
+                    <a href="#"><img src="./media/leftImage2.webp" alt="veneciaImg"></a>
+                    <a href="#">Venice, Overwhelmed by Tourists, Tries Tracking Them</a>
+                </div>
+                <div class="thirdLeftNews">
+                    <a href="#"><img src="./media/leftImage3.webp" alt="tsmImg"></a>
+                    <a href="#">TSM FTX Academy Parts Ways With Hauntzer, Cody Sun, and Sword</a>
+                </div>
+            </section>
+            <section class="rightSection">
+                <div class="firstRightNews">
+                    <a href="#"><img src="./media/rightimage1.webp" alt="shangaiContainerImg"></a>
+                    <a href="#">Biden Administration Offers a Glimpse at Its China Strategy</a>
+                </div>
+                <div class="secondRightNews">
+                    <a href="#"><img src="./media/rightimage2.webp" alt="papersImg"></a>
+                    <a href="#">Pandora Papers: Calls to end financial secrecy</a>
+                </div>
+                <div class="thirdRightNews">
+                    <a href="#"><img src="./media/rightImage3.jpg" alt="radiumRocketImg"></a>
+                    <a href="#">Radium Rocket: Argentine company under investigation for alleged extortion of students </a>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class="footerLinks">
+                <ul>
+                    <li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Suscribe</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                    </li>
+                </ul>
+            </div>
+            <div class="info">
+                <p>
+                    © Copyright 2021 RR Publishing Limited
+                </p>
+                <p>
+                    Rosario, Santa fe. Argentina
+                </p>
+            </div>
+        </footer>
     </body>
 </html>
