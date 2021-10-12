@@ -1,5 +1,5 @@
 footer{
-    background-color: black;
+    background-color: #000;
     height: auto;
     width: 100%;
     display: flex;
@@ -22,7 +22,7 @@ footer{
 }
 .footerLinks ul li a{
     text-decoration: none;
-    color: white;
+    color: #fff;
     font-size: 0-0.5em;
 }
 .footerLinks ul li a:hover{
@@ -36,6 +36,6 @@ footer{
 }
 .info p{
     font-size: 0.8rem;
-    color: grey;
+    color: #808080;
     font-style: italic;
 }

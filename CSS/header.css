@@ -5,12 +5,12 @@
 }
 header{
     width: 100%;
-    background-color: white;
+    background-color: #fff;
 }
 header .firstRow{
     min-height:60px;
     display: flex;
-    border-bottom: black solid 2px;
+    border-bottom: #000000 solid 2px;
     justify-content: space-between;
     width: 100%;
 }
@@ -31,13 +31,13 @@ header .socialMediaLinks li{
 }
 header .socialMediaLinks i{
     font-size:2rem;
-    color: black;
+    color: #000000;
 }
 header .socialMediaLinks a:visited{
     text-decoration: none;
 }
 header .socialMediaLinks i:hover{
- color: tomato;
+ color: #ff6347;
 }
 .mainLogoContainer{
     display: flex;
@@ -57,11 +57,11 @@ header .socialMediaLinks i:hover{
     justify-content: space-around;
 }
 .extraButtons a{
-    background-color: black;
-    border:black 2px;
+    background-color: #000000;
+    border:#000000 2px;
     border-radius:2mm;
     padding: 10px 5px;
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 1rem;
     /* font-size:1.2vw;
@@ -75,7 +75,7 @@ header nav{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    background-color: tomato;
+    background-color: #ff6347;
 }
 header nav ul{
     width: 100%;
@@ -101,17 +101,17 @@ header .secondRow li{
 header .secondRow a{
     padding: 0 5px;
     font-size: 1rem;
-    color: white;
+    color: #ffffff;
     font-weight: 600;
 }
 header .secondRow a:visited{
     text-decoration: none;
 }
 header .secondRow a:hover{
-    border:tomato solid 1px;
+    border:#ff6347 solid 1px;
     padding: 1vh;
-    color: tomato;
-    background-color: white;
+    color: #ff6347;
+    background-color: #ffffff;
 }
 @media only screen and (max-width: 768px){
     .extraButtons{
